@@ -1,0 +1,102 @@
+/*
+  Emmanuel's CSS
+*/
+body{
+  background-color:#fff;
+  font-weight:400;
+  font-size:18px;
+}
+body,
+.three-cta h3 span a, .three-cta h3 span{
+  font-family: 'Open Sans', sans-serif;
+}
+.three-cta h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+.site-inner.full .wrap .columns{
+  max-width:933px;
+  margin:0 auto;
+}
+.site-inner.full .wrap{
+  max-width:100%;
+}
+.text-section{
+  padding:80px 0;
+}
+.contact-form .column{
+  padding-bottom:0;
+  padding-top:0px;
+}
+.contact-form small{
+  font-size:10px;
+  position: relative;
+  top:-5px;
+  color:#fff;
+  font-style:italic;
+}
+.contact-form input[type="submit"]{
+  margin-top:37px;
+  border:1px solid #fff;
+  background-color: #ff6600;
+  max-width: 326px;
+  width:100%;
+  line-height:40px;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight:800;
+}
+.contact-form textarea{
+  min-height:200px;
+  padding:20px 30px;
+}
+.contact-form textarea,
+.contact-form input[type="phone"],
+.contact-form input[type="email"],
+.contact-form input[type="text"]{
+  font-size:12px;
+  font-style: italic;
+  padding-left:30px;
+  font-weight:600;
+  box-shadow: none;
+}
+.contact-form{
+  padding: 80px 0;
+  background:url(../images/contact-form-bg.jpg);
+}
+
+.three-cta h3 span a,
+.three-cta h3 span{
+  line-height: 24px;
+  color:#01afef;
+  display:block;
+  font-size:24px;
+  font-weight:700;
+}
+.three-cta span{margin-top:15px;}
+.three-cta h3{
+  margin-top:15px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-size:24px;
+  font-weight:500;
+  color:#333;
+}
+.site-inner.full .wrap .three-cta .columns{max-width:1130px;}
+.three-cta{
+  padding:60px 0;
+}
+.footer-map{
+  min-height:523px;
+  background:url(../images/google-maps.jpg);
+}
+::placeholder {
+    color: #2c3e50;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: #2c3e50;
+}
+::-ms-input-placeholder {
+    color: #2c3e50;
+}
