@@ -14,11 +14,12 @@ body,
   font-family: 'Oswald', sans-serif;
 }
 
-.site-inner.full .wrap .columns{
+.cmk-full .wrap .columns{
   max-width:933px;
   margin:0 auto;
 }
-.site-inner.full .wrap{
+.cmk-full .entry{padding:0;}
+.cmk-full .wrap{
   max-width:100%;
 }
 .text-section{
@@ -63,6 +64,7 @@ body,
 .contact-form{
   padding: 80px 0;
   background:url(../images/contact-form-bg.jpg);
+  background-size:cover;
 }
 
 .three-cta h3 span a,
@@ -89,6 +91,7 @@ body,
 .footer-map{
   min-height:523px;
   background:url(../images/google-maps.jpg);
+  background-size:cover;
 }
 ::placeholder {
     color: #2c3e50;
